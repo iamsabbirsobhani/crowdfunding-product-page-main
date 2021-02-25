@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style>
-    Backgroundyle scoped>
+
 .home{
   margin: 0px;
 }
