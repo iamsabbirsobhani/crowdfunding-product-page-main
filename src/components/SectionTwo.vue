@@ -51,6 +51,7 @@ export default {
  p {
     font-weight: normal;
     font-size: 14px;
+    color: hsl(0, 0%, 48%);
 }
 .card-2 {
     padding: 10px;
