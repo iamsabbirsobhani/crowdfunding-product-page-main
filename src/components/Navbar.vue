@@ -1,6 +1,6 @@
 <template>
   <div class="background">
-    <img class="b-img" src="../assets/image-hero-desktop.jpg" alt="">
+    <img class="b-img" style="width: 100%" src="../assets/image-hero-desktop.jpg" alt="">
     <nav>
       <img src="../assets/logo.svg" alt="" />
       <div class="nav-info">
@@ -47,8 +47,5 @@ p {
   color: white;
   cursor: pointer;
   font-weight: 500;
-}
-.b-img{
-  width: 100%;
 }
 </style>
