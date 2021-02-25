@@ -75,8 +75,8 @@ export default {
   align-self: center;
 }
 img {
-  height: 80px;
-  width: 80px;
+  height: 80px !important;
+  width: 80px !important;
 }
 button {
   background-color: #3cb4ab;
