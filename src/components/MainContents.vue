@@ -36,7 +36,9 @@
     <section class="section-2">
       <section-two />
     </section>
-    <section class="section-3"></section>
+    <section class="section-3">
+      <section-three/>
+    </section>
   </div>
 </template>
 
@@ -44,8 +46,9 @@
 import Button from "primevue/button";
 import Card from "primevue/card";
 import SectionTwo from "./SectionTwo.vue";
+import SectionThree from './SectionThree.vue';
 export default {
-  components: { Card, Button, SectionTwo },
+  components: { Card, Button, SectionTwo, SectionThree },
 };
 </script>
 
@@ -94,7 +97,7 @@ button:hover {
   padding: 20px;
 }
 .btn-2 {
-  background-color: #f4f4f4;
+  background-color: #f4f4f4 !important;
   color: #495057;
 }
 .btn-2:hover {
