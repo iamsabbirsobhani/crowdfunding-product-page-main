@@ -17,3 +17,9 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## PrimeVue
+For Button Active Focus Border
+`theme.css` <br>
+class: `.p-button:focus`

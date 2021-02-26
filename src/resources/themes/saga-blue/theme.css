@@ -1574,7 +1574,7 @@
 .p-button:focus {
   outline: 0 none;
   outline-offset: 0;
-  box-shadow: 0 0 0 0.2rem #a6d5fa;
+  box-shadow: 0 0 0 0.2rem hsla(176, 50%, 47%, 0.493);
 }
 .p-button .p-button-icon-left {
   margin-right: 0.5rem;
@@ -3558,7 +3558,7 @@
 .p-fileupload .p-fileupload-buttonbar .p-button.p-fileupload-choose.p-focus {
   outline: 0 none;
   outline-offset: 0;
-  box-shadow: 0 0 0 0.2rem #a6d5fa;
+  /* box-shadow: 0 0 0 0.2rem #a6d5fa; */
 }
 .p-fileupload .p-fileupload-content {
   background: #ffffff;
