@@ -15,10 +15,10 @@
             <C3SEC2/>
         </section>
         <section class="c3-sec-3">
-
+            <C3SEC3/>
         </section>
         <section class="c3-sec-4">
-
+            <C3SEC4/>
         </section>
     </template>
   </Card>
@@ -26,8 +26,10 @@
 
 <script>
 import C3SEC2 from './C3SEC2.vue';
+import C3SEC3 from './C3SEC3.vue';
+import C3SEC4 from './C3SEC4.vue';
 export default {
-  components: { C3SEC2 }
+  components: { C3SEC2, C3SEC3, C3SEC4 }
 }
 </script>
 

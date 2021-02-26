@@ -2,19 +2,18 @@
   <Card class="card-4">
     <template #title>
       <div class="title">
-        <h4>Bamboo Stand</h4>
-        <h4 style="color: hsl(176, 50%, 47%)">Pledge $25 or more</h4>
+        <h4>Black Edition Stand</h4>
+        <h4 style="color: hsl(176, 50%, 47%)">Pledge $75 or more</h4>
       </div>
     </template>
     <template #content>
-      You get an ergonomic stand made of natural bamboo. You've helped us launch
-      our promotional campaign, and you’ll be added to a special Backer member
-      list.
+        You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+  member list. Shipping is included.
     </template>
     <template #footer>
       <div class="footer">
         <div class="footer-1">
-          <h1>101</h1>
+          <h1>64</h1>
           <p>left</p>
         </div>
         <Button label="Select Reward" class="p-button-rounded" />
@@ -28,9 +27,9 @@ export default {};
 </script>
 
 <style>
-.card-4 {
-  border-radius: 10px !important;
-  margin-bottom: 50px;
+.card-4{
+    border-radius: 10px !important;
+    margin-bottom: 50px;
 }
 .title {
   display: flex;
@@ -44,20 +43,20 @@ h4 {
   font-size: 25px;
   float: left;
 }
-.footer p {
-  float: right;
-  margin: 5px;
-  color: hsl(0, 0%, 48%);
+.footer p{
+    float: right;
+    margin: 5px;
+    color: hsl(0, 0%, 48%);
 }
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer-1 {
-  display: flex;
-  align-items: center;
+.footer-1{
+    display: flex;
+    align-items: center;
 }
 
 .p-button-rounded {

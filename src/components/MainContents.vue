@@ -22,7 +22,11 @@
         </template>
         <template #content>
           <div class="btn">
-            <Button label="Back this project" class="p-button-rounded" />
+            <Button
+              label="Back this project"
+              class="p-button-rounded"
+              @click="handleClick"
+            />
             <Button
               icon="pi pi-bookmark"
               label="Bookmark"
@@ -37,8 +41,9 @@
       <section-two />
     </section>
     <section class="section-3">
-      <section-three/>
+      <section-three />
     </section>
+    <DialogBox v-if="showDialog"/>
   </div>
 </template>
 
@@ -46,9 +51,18 @@
 import Button from "primevue/button";
 import Card from "primevue/card";
 import SectionTwo from "./SectionTwo.vue";
-import SectionThree from './SectionThree.vue';
+import SectionThree from "./SectionThree.vue";
+import DialogBox from "./DialogBox.vue";
+import { defineEmit, ref } from "vue";
 export default {
-  components: { Card, Button, SectionTwo, SectionThree },
+  components: { Card, Button, SectionTwo, SectionThree, DialogBox },
+  setup(props, context) {
+    const showDialog = ref(false)
+    const handleClick = () => {
+      showDialog.value = true
+    };
+    return {handleClick, showDialog}
+  },
 };
 </script>
 
