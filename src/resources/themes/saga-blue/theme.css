@@ -968,20 +968,22 @@
   font-size: 1rem;
   color: #495057;
   background: #ffffff;
-  padding: 0.5rem 0.5rem;
+  padding: 0.7rem 0.7rem;
   border: 1px solid #ced4da;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
   appearance: none;
-  border-radius: 3px;
+  border-radius: 24px;
+  width: 120px;
 }
 .p-inputtext:enabled:hover {
-  border-color: #2196F3;
+  border-color: hsl(176, 50%, 47%);
 }
 .p-inputtext:enabled:focus {
   outline: 0 none;
   outline-offset: 0;
-  box-shadow: 0 0 0 0.2rem #a6d5fa;
-  border-color: #2196F3;
+  box-shadow: 0 0 0 0.2rem hsla(176, 50%, 47%, 0.664);
+  border-color: hsl(176, 50%, 47%);
+  /* border-color: #2196F3; */
 }
 .p-inputtext.p-invalid.p-component {
   border-color: #f44336;
@@ -3417,6 +3419,7 @@
 }
 .p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
   margin-right: 0;
+  /* display: none; */
 }
 .p-dialog .p-dialog-content {
   background: #ffffff;
